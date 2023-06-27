@@ -1,0 +1,11 @@
+2023-06-03 22:29:32.515  INFO 42331 --- [main] i.a.m.a.AvaliadorcreditoApplicationTests : Starting AvaliadorcreditoApplicationTests using Java 19.0.2 on marlos with PID 42331 (started by marlos in /home/marlos/Microservice API Modular/projeto-avaliador-credito/avaliadorcredito)
+2023-06-03 22:29:32.516  INFO 42331 --- [main] i.a.m.a.AvaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-06-03 22:29:33.246  INFO 42331 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f1dcc18-633c-3fcc-b19d-64b9f72d4c3b
+2023-06-03 22:29:33.693  INFO 42331 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'clientes' URL not provided. Will try picking an instance via load-balancing.
+2023-06-03 22:29:33.757  INFO 42331 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cartoes' URL not provided. Will try picking an instance via load-balancing.
+2023-06-03 22:29:34.683  INFO 42331 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-06-03 22:29:34.734  WARN 42331 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-06-03 22:29:34.745  INFO 42331 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-06-03 22:29:34.786  INFO 42331 --- [main] i.a.m.a.AvaliadorcreditoApplicationTests : Started AvaliadorcreditoApplicationTests in 2.506 seconds (JVM running for 3.043)
+2023-06-03 22:29:35.072  INFO 42331 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-03 22:29:35.074  INFO 42331 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AVALIADORCREDITO with eureka with status DOWN
